@@ -3,7 +3,7 @@ const expressLayouts = require('express-ejs-layouts')
 const moongoose = require('mongoose');
 const app = express();
 const flash = require('connect-flash');
-const sesion = require('express-session');
+const session = require('express-session');
 
 //DB Config
 
